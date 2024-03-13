@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ConvexClientProvider>
-          <Toaster dir="ltr" position="top-center" />
+          <Toaster dir="ltr" position="top-center"/>
           {children}
         </ConvexClientProvider>
       </body>
